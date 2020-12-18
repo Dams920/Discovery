@@ -1,0 +1,23 @@
+footer {
+  background-color: #193c71;
+  height: 18em;
+  color: white;
+  font-family: Overpass, sans-serif;
+}
+footer div,
+footer span {
+  display: flex;
+  justify-content: center;
+}
+#strong {
+  font-size: 2em;
+  font-weight: 900;
+}
+.m01 {
+  margin-bottom: 0.5em;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
