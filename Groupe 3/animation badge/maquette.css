@@ -9,6 +9,7 @@ html,body{
     margin:0;
     width: 100%;
     height: 100%;
+    font-size: 1em;
 }
 
 *{box-sizing:border-box;}
@@ -162,28 +163,46 @@ header{
         width: 410px;
    }
    #dialog{
-       width: 378px;
-       right: 35px;
+       width: 30%;
        background: white;
-       position: absolute;
+       position: relative;
        border-radius: 50%;
-       top: 10em;
-       
+       top: 20%;
+       left: 65%;
+       right: 5%;
+       padding: 10px;  
    }
    #recup{
-       font-size: 3em;
+       font-size: 1rem;
        font-weight: bold;
-       text-align: center;
-       
+       text-align: center;  
    }
+
+   
    #triangle{
-    position: absolute;
+    position: relative;
     height: 0;
     width: 0;
     border-right: 40px solid transparent;
     border-bottom: 26px solid white;
     border-left: 20px solid transparent;
-    top: 20em;
-    right: 21em;}
+    position: relative;
+    top: 13%;
+    left: 63%;
+    right: 5%;
+    z-index: -1;
+}
+@media all and (min-width:500px){
+    #dialog{
+        top:10%
+    }
+    #recup{
+        font-size:1.5rem;
+    }
+    #triangle{
+        top: 4%;
+        left: 65%;
+    }
+   }
 
    
