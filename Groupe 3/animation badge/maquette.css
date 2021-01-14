@@ -205,4 +205,70 @@ header{
     }
    }
 
-   
+/****************************************
+CSS Formulaire
+****************************************/
+
+.fa-twitter-square{
+    color: blue;
+}
+  .fa-instagram-square {
+      background: rgb(131,58,180);
+  background: linear-gradient(233deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background-clip:text;
+      -webkit-background-clip:text;
+      color:transparent;
+  }
+  .fa-google{
+    color: red;
+  }
+  #facebookgoogle
+  {
+    display: flex;
+    justify-content: space-around;
+  
+    align-items: center;
+  }
+  .facebookgoogleh1
+  {
+    background-color:#f1e8c1;
+    background-size: cover;
+  }
+  .formulaire{
+
+    background-color: rgb(211, 211, 211);
+   font-size: 100%;
+  }
+  #boutonEnvoyer{
+    margin: 3%;
+    color: white;
+    background-color: blue;
+    border:none;
+    font-size: 100%;
+    padding: 10px 20px;
+    border-radius:10px;  
+}
+i{
+    font-size:350%;
+    
+}
+#titre1{
+    font-size: 160%;
+    font-weight: bold;
+    text-align: center;
+}
+#titre2{
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.formContact{
+    text-align: center;
+}
+.top{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}

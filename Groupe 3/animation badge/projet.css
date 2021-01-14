@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+  text-align: center;
+   width:100%;
+    height: 100%;
+    font-size: 150%;
+}
+.fa-twitter-square{
+  color: blue;
+}
+.fa-instagram-square {
+    background: rgb(131,58,180);
+background: linear-gradient(233deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.fa-google{
+  color: red;
+}
+#facebookgoogle
+{
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.facebookgoogleh1
+{
+  background-color:#f1e8c1;
+  background-size: cover;
+}
+
+p{
+  padding: 1.5%;
+}
+.formulaire{
+
+  background-color: rgb(211, 211, 211);
+ font-size: 100%;
+}
+#boutonEnvoyer{
+  margin: 3%;
+  color: white;
+  background-color: blue;
+  
+  border:none;
+  
+  
+  font-size: 100%;
+    padding: 4%;
+    border-radius:1%;
+ 
+  
+}
+i{
+    font-size:350%;
+    
+  }
+  #titre1{
+    font-size: 160%;
+    font-weight: bold;
+  }
+  #titre2{
+    font-size: 100%;
+    font-weight: bold;
+  }
+  img{
+    width: 145px;
+  }
+
+ 
+  
+
+@media all and (max-device-width: 360px)
+{
+
+  i{
+    font-size:400%;
+    margin: 2%;
+  }
+  #titre1{
+    font-size: 175%;
+    font-weight: bold;
+  }
+  #titre2{
+    font-size: 155%;
+    font-weight: bold;
+  }
+  body{
+    width:100%;
+    height: 100%;
+    font-size: 90%;
+  }
+  
+
+  .formulaire
+     {
+    
+    font-size: 130%;
+  }
+  #boutonEnvoyer
+    {
+    
+    font-size: 130%;
+    padding: 4%;
+    border-radius:3%;
+    } 
+  }
+
+@media (min-width: 767.98px) and (max-width: 1025px) and (orientation: portrait){
+  i{
+    font-size:300%;
+    margin: 5%;
+  }
+  #titre1{
+      font-size: 150%;
+      font-weight: bold;
+    }
+  #titre2{
+      font-size: 100%;
+      font-weight: bold;
+    }
+  body{
+    width:100%;
+    height: 100%;
+    font-size: 220%;
+  }
+  
+
+  .formulaire
+     {
+      margin: 0.1%;
+    font-size: 110%;
+  }
+  #boutonEnvoyer
+    {
+    margin: 2%;
+    font-size: 110%;
+    padding: 2%;
+    border-radius:5%;
+    } 
+  }
+ 
+@media (min-width: 1023.98px) and (max-width: 1024px) and (orientation: portrait){
+  i{
+    font-size:400%;
+    margin: 5%;
+  }
+  #titre1{
+    font-size: 170%;
+    font-weight: bold;
+    }
+  #titre2{
+    font-size: 130%;
+    font-weight: bold;
+    }
+   body{
+    width:100%;
+    height: 100%;
+    font-size: 230%;
+  }
+
+
+  .formulaire
+     {
+    margin: 0.2%;
+    font-size: 60px;
+  }
+  
+  }
