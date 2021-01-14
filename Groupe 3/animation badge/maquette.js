@@ -28,4 +28,9 @@ document.getElementById("recup").innerHTML = "Bien </br> joué!";
 
 }
 
-   
+window.addEventListener("load", function(){
+    var chevron = document.getElementById('chevron');
+    document.getElementById("cerclenoir").style.height = chevron.width+"px";
+}); 
+
+
