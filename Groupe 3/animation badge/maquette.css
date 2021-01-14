@@ -11,6 +11,9 @@ html,body{
     height: 100%;
     font-size: 1em;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 *{box-sizing:border-box;}
 
@@ -84,7 +87,7 @@ header{
     background-image: url("alan_excited_2.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 60%;
+    background-size: 90%;
     /* position: absolute;
     bottom: 14px; */
     position:relative;
@@ -92,20 +95,6 @@ header{
     justify-content: center;
     align-items: center; */
 
-    }
-
-    #alan{
-        filter:drop-shadow(0 0 0.1rem black);
-        /* height:40%; */
-        /* padding-top: 20%; */
-       /* border: 1px solid blue;*/ 
-       width: 100%;
-       position: absolute;
-       top: 200px;
-       left: 0;
-       right: 3em;
-      
-        
     }
    
     html{
@@ -256,6 +245,7 @@ i{
     font-size: 160%;
     font-weight: bold;
     text-align: center;
+    margin-top: 0;
 }
 #titre2{
     text-align: center;
@@ -271,4 +261,8 @@ i{
 }
 .center{
     text-align: center;
+    margin-bottom: 50px;
+}
+#invisible{
+    display: none;
 }
